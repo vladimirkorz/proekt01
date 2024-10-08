@@ -6,21 +6,28 @@
 
 
 body {
-    max-width: 1024px;
-    width: 100%;
-    /* Чтобы занимать всю ширину до максимума */
-    height: 100%;
-    /* Чтобы занимать всю высоту до максимума */
-    margin: auto;
-    /* Центрируем контейнер */
-    overflow: hidden;
+
     /* Прячем лишний контент */
-    background-color: #000028;
+    background-color: #000000;
     /* Цвет фона */
     align-self: auto;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 100;
     font-style: normal;
+
+}
+
+header {
+    max-width: 1024px;
+    width: 100%;
+    max-height: 768px;
+    /* Чтобы занимать всю ширину до максимума */
+    height: 100%;
+    margin: auto;
+    /* Центрируем контейнер */
+    overflow: hidden;
+    background-color: #000028;
+    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
 
 }
 
@@ -69,11 +76,33 @@ h1 {
     padding-bottom: 0;
 }
 
-header {
-    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
 
-}
 
 .dtv {
     padding-bottom: 53px;
+}
+
+section {
+    max-width: 1024px;
+    width: 100%;
+    max-height: 768px;
+    /* Чтобы занимать всю ширину до максимума */
+    height: 100%;
+    margin: auto;
+    /* Центрируем контейнер */
+    overflow: hidden;
+    background-color: #000028;
+}
+
+.section1 {
+    padding-top: 50px;
+}
+
+.zag1 {
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.section1>p {
+    color: aliceblue;
 }
