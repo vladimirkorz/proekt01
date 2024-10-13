@@ -27,8 +27,11 @@ header {
     /* Центрируем контейнер */
     overflow: hidden;
     background-color: #000028;
-    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
+    
 
+}
+.backg {
+background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
 }
 
 .zag {
@@ -54,15 +57,22 @@ header {
     padding-left: 13px;
     padding-right: 13px;
     font-size: 18px;
+    font-weight: 400;
 
+}
+.dan1 {
+ border: #FF0070;
+ border-width: 1px;
+ border-style: solid;
 }
 
 h1 {
     font-family: IBM Plex Mono;
     color: #DB00FF;
     font-size: 157px;
-    padding-top: 319px;
+    padding-top: 299px;
     margin-top: 0;
+    text-shadow: 4px 4px #FF0070;
 }
 
 
@@ -70,6 +80,7 @@ h1 {
     top: 563px;
     margin-left: 513px;
     background-color: #FF0070;
+    color: #000028;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 134px;
@@ -96,13 +107,31 @@ section {
 
 .section1 {
     padding-top: 50px;
-}
+    max-height: 508px;
 
+}
 .zag1 {
-    color: #000028;
     background-color: #FF0070;
+    color: #000028;
+    font-size: 18px;
+    font-weight: bold;
 }
-
-.section1>p {
-    color: aliceblue;
+.wt {
+ font-size: 18px;
+ color: #F1B2CE;
+ font-weight: 400;
+}
+.pt {
+    color: #FF0070;
+    font-weight: 700;
+    font-size: 18px;
+    width: 315px;
+    
+}
+.column1 {
+    display: flex;
+    width: 984px;
+    height: 508px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
