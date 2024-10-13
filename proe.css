@@ -46,14 +46,6 @@ header {
     transform: translateX(-50%);
 }
 
-.lamp {
-    display: flex;
-    position: relative;
-    color: #FF0070;
-    top: 18px;
-    left: 943px;
-}
-
 .dan {
     padding-left: 13px;
     padding-right: 13px;
@@ -67,6 +59,32 @@ header {
     border-width: 1px;
     border-style: solid;
 }
+
+.lamp {
+    display: flex;
+    position: relative;
+    color: #FF0070;
+    top: 18px;
+    left: 943px;
+}
+
+.lamp>p {
+    margin-top: 0;
+}
+
+.to4ka {
+    display: block;
+    width: 9px;
+    height: 9px;
+    filter: drop-shadow(0px 0px 4px #FF0070);
+    background-color: #FF0070;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 10px;
+
+}
+
+
 
 h1 {
     font-family: IBM Plex Mono;
@@ -135,6 +153,7 @@ section {
     width: 315px;
 
 }
+
 .section2>.pt {
     margin-left: 20px;
 }
@@ -147,7 +166,7 @@ section {
     margin-right: 20px;
 }
 
-.sst{
+.sst {
     margin-left: 20px;
     margin-right: 20px;
 }
