@@ -27,11 +27,12 @@ header {
     /* Центрируем контейнер */
     overflow: hidden;
     background-color: #000028;
-    
+
 
 }
+
 .backg {
-background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
 }
 
 .zag {
@@ -60,10 +61,11 @@ background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd70
     font-weight: 400;
 
 }
+
 .dan1 {
- border: #FF0070;
- border-width: 1px;
- border-style: solid;
+    border: #FF0070;
+    border-width: 1px;
+    border-style: solid;
 }
 
 h1 {
@@ -108,30 +110,44 @@ section {
 .section1 {
     padding-top: 50px;
     max-height: 508px;
+    padding-bottom: 80px;
+
 
 }
+
 .zag1 {
     background-color: #FF0070;
     color: #000028;
     font-size: 18px;
     font-weight: bold;
 }
+
 .wt {
- font-size: 18px;
- color: #F1B2CE;
- font-weight: 400;
+    font-size: 18px;
+    color: #F1B2CE;
+    font-weight: 400;
 }
+
 .pt {
     color: #FF0070;
     font-weight: 700;
     font-size: 18px;
     width: 315px;
-    
+
 }
+.section2>.pt {
+    margin-left: 20px;
+}
+
 .column1 {
     display: flex;
     width: 984px;
     height: 508px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sst{
     margin-left: 20px;
     margin-right: 20px;
 }
